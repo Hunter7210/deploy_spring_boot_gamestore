@@ -1,0 +1,9 @@
+body { font-family: 'Lucida Console', monospace; background-color: #f4f4f4; }
+.header { background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); color: white; padding: 20px; text-align: center; }
+.nav { display: flex; justify-content: center; padding: 10px; background-color: #222; }
+.nav a { margin: 0 15px; text-decoration: none; color: #ddd; font-weight: bold; }
+.nav a:hover { color: #fff; }
+.content { margin: 15px; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+.footer { background-color: #222; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+.game-highlight { background-color: #333; color: white; padding: 10px; border-radius: 8px; margin-bottom: 20px; }
+.game-highlight h2 { color: #ffcc00; }

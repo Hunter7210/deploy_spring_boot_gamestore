@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org/">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" th:href="@{css/styles.css}">
+<title>GameStore</title>
+</head>
+<body>
+
+<div class="header">
+  <h1>GameStore</h1>
+  <p>A aventura começa aqui!</p>
+</div>
+
+<div class="nav">
+  <a href="@{/home}">Home</a>
+  <a href="@{/list}">Lista de Jogos</a>
+  <a href="@{/addgame}">Adicionar Jogo</a>
+  <a href="@{/contact}">Contato</a>
+</div>
+
+<div class="content">
+  <div class="game-highlight">
+    <h2>Destaque da Semana</h2>
+    <p>Descubra o mundo de <strong>Azeroth</strong> no lançamento épico de <strong>World of Quests</strong>!</p>
+  </div>
+  <!-- Adicione mais conteúdo de jogo aqui -->
+</div>
+
+<div class="footer">
+  <p>GameStore © 2024</p>
+</div>
+
+</body>
+</html>
