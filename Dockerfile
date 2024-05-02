@@ -11,7 +11,7 @@ COPY . .
 RUN mvn clean install
 
 # Define o estágio final
-FROM openjdk:17-oracle
+FROM openjdk:17-jdk-slim
 
 # Expõe a porta 8080
 EXPOSE 8080
