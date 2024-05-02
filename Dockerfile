@@ -17,7 +17,7 @@ FROM openjdk:17-jdk-slim
 EXPOSE 8080
 
 # Copia o JAR do estágio de compilação para o estágio final
-COPY --from=build /target/gamestore.jar /app.jar
+COPY --from=build /target/gamestore.jar app.jar
 
 # Define o ponto de entrada
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
